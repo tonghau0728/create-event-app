@@ -1,0 +1,41 @@
+.mat-card {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    margin: 15px;
+    padding: 35px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.form-control {
+    padding: 13px 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute-button {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-7%, -50%);
+}
+
+#event_title {
+    padding: 13px 165px 13px 20px;
+}
+
+.btn-primary {
+    color: #7eb0f9;
+    border-color: #7eb0f9;
+}

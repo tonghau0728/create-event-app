@@ -1,0 +1,31 @@
+<form class="create-event-form" method="post" enctype="multipart/form-data">
+    <mat-grid-list cols="5" rowHeight="1:2">
+        <mat-grid-tile colspan="3">
+            <mat-card>
+                <div class="form-group">
+                    <label for="event_title" class="form-label">TITLE</label>
+                    <div class="relative">
+                        <input id="event_title" class="form-control" placeholder="Event A">
+                        <button type="button" id="add_description" class="absolute-button btn-primary" mat-stroked-button color="primary">+ Add Description</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group date" data-provide="datepicker">
+                        <input type="text" class="form-control">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-th"></span>
+                        </div>
+                    </div>
+                </div>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile colspan="2">
+            <mat-card>Simple card</mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>
+</form>
+<script>
+    $(document).ready(function(){
+        $('.date').datepicker();
+    });
+</script>
